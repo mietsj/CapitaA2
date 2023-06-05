@@ -1,0 +1,2499 @@
+{
+  "consent_flag": "True",
+  "tranco_rank": 5,
+  "website_domain": "http://www.microsoft.com/",
+  "post_pageload_url": "https://www.microsoft.com/nl-nl/",
+  "pageload_start_ts": 1685616829602,
+  "pageload_end_ts": 1685616852506,
+  "requests": [
+    {
+      "request_url": "http://www.microsoft.com/",
+      "unix_timestamp_request": 191615.472534,
+      "request_headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/nl-nl/",
+      "unix_timestamp_request": 191615.498582,
+      "request_headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "response_headers": {
+        "cache-control": "max-age=0,s-maxage=86400",
+        "content-encoding": "gzip",
+        "content-length": "23141",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "ms-commit-id": "6b35a60",
+        "ms-cv": "CASMicrosoftCV1992db0b.0",
+        "ms-cv-esi": "CASMicrosoftCV1992db0b.0",
+        "strict-transport-security": "max-age=31536000",
+        "tls_version": "tls1.3",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-edgeconnect-origin-mex-latency": "468",
+        "x-frame-options": "SAMEORIGIN",
+        "x-rtag": "AEM_PROD_Marketing",
+        "x-version": "2023.526.104106.0002731627",
+        "x-vhost": "publish_microsoft_s"
+      }
+    },
+    {
+      "request_url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2",
+      "unix_timestamp_request": 191616.057089,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2",
+      "unix_timestamp_request": 191616.058049,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2",
+      "unix_timestamp_request": 191616.058669,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2",
+      "unix_timestamp_request": 191616.059422,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2",
+      "unix_timestamp_request": 191616.059973,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-featureControlled/main-light.min.ACSHASH4c27348ffc095e0848f7ea06b415d7ab.css",
+      "unix_timestamp_request": 191616.060627,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-base.min.ACSHASHc5871451778c8e6454258da6f73224b7.css",
+      "unix_timestamp_request": 191616.061334,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-uhf.min.ACSHASHf9f2395c582fa601707b7a5dfae9f05f.css",
+      "unix_timestamp_request": 191616.061862,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-jquery.min.ACSHASH35986a813756f39ab6b922979ffedb03.js",
+      "unix_timestamp_request": 191616.062592,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-jquery-cookie.min.ACSHASH20aafdf6904d3dc5db0e0e33abbfc1a4.js",
+      "unix_timestamp_request": 191616.063063,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/exp-analytics/v1.min.ACSHASH4cffc2c9b55f8bde649e0d2535a1eebd.js",
+      "unix_timestamp_request": 191616.063595,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/exp-cookiecomp/v1.min.ACSHASH5d289facb3c5fe0d12468a1aed519537.js",
+      "unix_timestamp_request": 191616.064163,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_mobile_webkit_android/79-4cdd0a/33-ae3d41/a5-4bf7a2/13-8e1ceb/81-32f0c0/5c-b7b685/51-0a6e40/74-888e54?ver=2.0&_cf=02242021_3231",
+      "unix_timestamp_request": 191616.064903,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+      "unix_timestamp_request": 191616.065423,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/universalheader/v1/universalheader/clientlibs/site.min.ACSHASH0a5c3d6fd3a524eb60e59a4de99b8033.js",
+      "unix_timestamp_request": 191616.065669,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/highlightcarousel/v1/highlightcarousel/clientlibs/site.min.ACSHASH58ded7ec79d32269013420240bdd4f9f.css",
+      "unix_timestamp_request": 191616.065897,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/highlight/v1/highlight/clientlibs/site.min.ACSHASH4bccf6a7a4d192fa945db247cda7063d.css",
+      "unix_timestamp_request": 191616.06621,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/highlight/v1/highlight/clientlibs/site.min.ACSHASH74f2caec927787ad953f05558fa9c6d2.js",
+      "unix_timestamp_request": 191616.066434,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-7-Plus-platinum-Type-Cover-black:VP4-1399x600",
+      "unix_timestamp_request": 191616.06672,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-PC-Accessories-Razer-Cynosa-keyboard-DeathAdder-HALO-Infinite-Mouse:VP4-1399x600",
+      "unix_timestamp_request": 191616.067055,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/highlightcarousel/v1/highlightcarousel/clientlibs/site.min.ACSHASH6bb26e53bbaf3543ac57fd94e99159c0.js",
+      "unix_timestamp_request": 191616.067279,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-base.min.ACSHASH0ccd9eef1546bdf32be06f1434452810.js",
+      "unix_timestamp_request": 191616.067494,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/content-card/v1/content-card/clientlibs/site.min.ACSHASHeb1d4b46ab498ba349a97e53a9644534.js",
+      "unix_timestamp_request": 191616.067688,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/content-card/v1/content-card/clientlibs/site.min.ACSHASHc033b611d87d511847501ade7913431f.css",
+      "unix_timestamp_request": 191616.067901,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://via.placeholder.com/1.gif",
+      "unix_timestamp_request": 191616.068269,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/content-card-item/v1/content-card-item/clientlibs/site.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+      "unix_timestamp_request": 191616.06885,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-Hero-Xbox-Series-S:VP4-1260x600",
+      "unix_timestamp_request": 191616.070585,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/back-to-top-button/v1/back-to-top-button/clientlibs/sites.min.ACSHASHa722775809d2312f435036def15bcd62.css",
+      "unix_timestamp_request": 191616.072662,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/content/back-to-top-button/v1/back-to-top-button/clientlibs/sites.min.ACSHASH48d949b834ed32dfd8266989e9dab912.js",
+      "unix_timestamp_request": 191616.073067,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+      "unix_timestamp_request": 191616.073629,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/shell/_scrf/js/themes=default/8e-e88b64/82-2a4f02/49-a00ab0/92-02e55d/7c-dcea75/75-fca72d/ed-e77ee7/d5-bf34c0/a9-078595/7a-7ea8cc/2d-40bdad/23-e8cd2b/96-eb5423/e6-6b0cce/d1-98d78a/c6-082272/a7-f7a340/1e-addbef/2e-ca165a/fc-169dd8/8e-60935c/87-fecbed/96-6ed6eb/c3-eb62e0/ad-ffd6bf/35-621acc/3b-84517a/b0-07f293/1e-9d9d16/52-f0367f/94-1dce2c/bf-517249/e1-ed258e/20-0b10e2/6b-0f1117/fb-5e9831/a2-598841?ver=2.0&_cf=02242021_3231&iife=1",
+      "unix_timestamp_request": 191616.074075,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://mem.gfx.ms/meversion?partner=mshomepage&market=nl-nl&uhf=1",
+      "unix_timestamp_request": 191616.074603,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-featureControlled/main-light.min.ACSHASHd7ee7ab2cc2816b1e373b8d621c075a7.js",
+      "unix_timestamp_request": 191616.075067,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-httpclient.min.ACSHASH61a1392284683327ae0008f4cdf9f6b3.js",
+      "unix_timestamp_request": 191616.075513,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-cookieconsent.min.ACSHASH96f0c5b1219e39b8788028f5c17a5ad9.js",
+      "unix_timestamp_request": 191616.075869,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/embed-thirdparty.min.ACSHASHaf004f7b094ed9078eb63a0c116c2dd2.js",
+      "unix_timestamp_request": 191616.076213,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/featurecontrol.min.ACSHASHc22ea5b46f3fcad90da0abcc0a3f73d4.js",
+      "unix_timestamp_request": 191616.076656,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASHb76e4bb3cb9103a12d0b9a568408c8f8.js",
+      "unix_timestamp_request": 191616.076968,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-greenid.min.ACSHASH383b23d12df0d9265d7569a7102c2f96.js",
+      "unix_timestamp_request": 191616.077397,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "90e9525",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e54b.0",
+        "ms-cv": "CASMicrosoftCV1992e54b.0",
+        "content-length": "46058",
+        "last-modified": "Wed, 29 Mar 2023 19:36:45 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 10 Jan 2020 19:09:43 GMT",
+        "etag": "\"1282d283e9c7d51:0\"",
+        "access-control-allow-methods": "GET,POST",
+        "content-type": "font/woff2",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=395352",
+        "accept-ranges": "bytes",
+        "content-length": "27168",
+        "expires": "Tue, 06 Jun 2023 00:43:02 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 10 Jan 2020 19:09:42 GMT",
+        "etag": "\"83cce83e9c7d51:0\"",
+        "access-control-allow-methods": "GET,POST",
+        "content-type": "font/woff2",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=432692",
+        "accept-ranges": "bytes",
+        "content-length": "30132",
+        "expires": "Tue, 06 Jun 2023 11:05:22 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 10 Jan 2020 19:09:43 GMT",
+        "etag": "\"5b68d583e9c7d51:0\"",
+        "access-control-allow-methods": "GET,POST",
+        "content-type": "font/woff2",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=193521",
+        "accept-ranges": "bytes",
+        "content-length": "29388",
+        "expires": "Sat, 03 Jun 2023 16:39:11 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 10 Jan 2020 19:09:43 GMT",
+        "etag": "\"95edd883e9c7d51:0\"",
+        "access-control-allow-methods": "GET,POST",
+        "content-type": "font/woff2",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=296419",
+        "accept-ranges": "bytes",
+        "content-length": "28908",
+        "expires": "Sun, 04 Jun 2023 21:14:09 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 10 Jan 2020 19:09:43 GMT",
+        "etag": "\"588d483e9c7d51:0\"",
+        "access-control-allow-methods": "GET,POST",
+        "content-type": "font/woff2",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=253873",
+        "accept-ranges": "bytes",
+        "content-length": "34052",
+        "expires": "Sun, 04 Jun 2023 09:25:03 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "ms-operation-id": "2daafd4806e4bc41885bc1a0397ce23d",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "RT",
+        "x-s2": "2023-04-04T19:59:52",
+        "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+        "x-activity-id": "d9b8f644-dd78-4c6c-a6bd-e33bea7d2ca4",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e67b.0",
+        "ms-cv": "CASMicrosoftCV1992e67b.0",
+        "content-length": "22742",
+        "x-xss-protection": "1; mode=block",
+        "last-modified": "Tue, 04 Apr 2023 19:59:52 GMT",
+        "x-az": "{did:92e7dc58ca2143cfb2c818b047cc5cd1, rid: OneDeployContainer, sn: marketingsites-prod-odnortheurope, dt: 2018-05-03T20:14:23.4188992Z, bt: 2023-03-10T08:58:24.0000000Z}",
+        "x-s1": "2023-04-04T19:59:52",
+        "access-control-allow-methods": "HEAD,GET,POST,PATCH,PUT,OPTIONS",
+        "content-type": "text/css; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "cache-control": "public, max-age=26557561",
+        "timing-allow-origin": "*",
+        "x-appversion": "1.0.8468.43152",
+        "expires": "Wed, 03 Apr 2024 19:59:51 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e64b.0",
+        "ms-cv": "CASMicrosoftCV1992e64b.0",
+        "content-length": "183",
+        "last-modified": "Tue, 01 Sep 2020 17:18:58 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher2westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e63b.0",
+        "ms-cv": "CASMicrosoftCV1992e63b.0",
+        "content-length": "23965",
+        "last-modified": "Mon, 27 Feb 2023 20:53:24 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-origin-mex-latency": "10",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e68b.0",
+        "ms-cv": "CASMicrosoftCV1992e68b.0",
+        "content-length": "710",
+        "last-modified": "Wed, 27 Jul 2022 17:44:00 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e66b.0",
+        "ms-cv": "CASMicrosoftCV1992e66b.0",
+        "content-length": "798",
+        "last-modified": "Mon, 01 Jun 2020 23:37:11 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "x-edgeconnect-origin-mex-latency": "15",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e65b.0",
+        "ms-cv": "CASMicrosoftCV1992e65b.0",
+        "content-length": "33310",
+        "last-modified": "Mon, 01 Jun 2020 23:37:11 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-origin-mex-latency": "9",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "4",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e87b.0",
+        "ms-cv": "CASMicrosoftCV1992e87b.0",
+        "content-length": "1435",
+        "last-modified": "Mon, 06 Feb 2023 19:26:29 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff",
+      "unix_timestamp_request": 191616.272018,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-base.min.ACSHASHc5871451778c8e6454258da6f73224b7.css",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e8eb.0",
+        "ms-cv": "CASMicrosoftCV1992e8eb.0",
+        "content-length": "51",
+        "last-modified": "Wed, 14 Apr 2021 18:09:31 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Thu, 11 May 2023 11:07:45 GMT",
+        "x-resizerversion": "1.0",
+        "x-source-length": "4054",
+        "x-datacenter": "northeu",
+        "x-frame-options": "DENY",
+        "content-type": "image/png",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=173939",
+        "x-activityid": "31f335f3-105b-4c4f-a121-ea0e5b5f0a10",
+        "content-location": "https://image.prod.cms.rt.microsoft.com/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+        "timing-allow-origin": "*",
+        "content-length": "4054",
+        "alt-svc": "h3-Q050=\":443\"; ma=93600,quic=\":443\"; ma=93600; v=\"46,43\"",
+        "expires": "Sat, 03 Jun 2023 11:12:49 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Thu, 01 Jun 2023 02:57:02 GMT",
+        "-x-adobe-smart-imaging": "1272",
+        "server": "Unknown",
+        "etag": "\"0239be37af41d736d22d7efa19ab5b8c\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "39238",
+        "expires": "Thu, 01 Jun 2023 12:57:49 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "expires": "Thu, 01 Jun 2023 15:23:51 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "x-azure-ref-originshield": "0Rw94ZAAAAACWGN0pYVPUQY0mHYhicfn5QU1TMDRFREdFMTgxNwBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "x-azure-ref": "0vnh4ZAAAAAD9GrHuYwHPSJ1XF4QhkoKQQlJVMzBFREdFMTAwNwBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "x-cache": "TCP_HIT",
+        "cache-control": "public, no-transform, max-age=43200",
+        "x-ua-compatible": "IE=edge"
+      }
+    },
+    {
+      "response_headers": {
+        "x-ms-blob-type": "BlockBlob",
+        "date": "Thu, 01 Jun 2023 10:53:49 GMT",
+        "content-encoding": "gzip",
+        "content-md5": "X1JOIM5h9UISVFS6+GfEew==",
+        "age": "34279",
+        "x-cache": "CONFIG_NOCACHE",
+        "content-length": "81726",
+        "x-ms-lease-status": "unlocked",
+        "last-modified": "Wed, 24 Aug 2022 17:34:36 GMT",
+        "etag": "0x8DA85F6EA62BF74",
+        "vary": "Accept-Encoding",
+        "x-azure-ref": "0vnh4ZAAAAAC9YceLxj2mQ5sED/PJEE7YQlJVMzBFREdFMTExMAAzOWI0NjE1Ny1jYjllLTQ5YjctYTY1YS04NzIyYTNmODI0ZTQ=",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "x-ms-request-id": "546c1759-501e-001e-3b27-94254c000000",
+        "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding",
+        "cache-control": "max-age=43200",
+        "x-ms-version": "2009-09-19"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Thu, 01 Jun 2023 02:53:28 GMT",
+        "-x-adobe-smart-imaging": "771",
+        "server": "Unknown",
+        "etag": "\"5cc02134f9cc111ab8b80f8df8b4ef50\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "22640",
+        "expires": "Thu, 01 Jun 2023 12:53:53 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Thu, 01 Jun 2023 07:16:54 GMT",
+        "-x-adobe-smart-imaging": "63068",
+        "server": "Unknown",
+        "etag": "\"bbdbca6bf47add98c0573e3a7523212b\"",
+        "content-type": "image/avif",
+        "access-control-allow-origin": "*",
+        "content-length": "32654",
+        "expires": "Thu, 01 Jun 2023 17:16:54 GMT"
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-featureControlled/resources/fonts/MWFFluentIcons.woff2",
+      "unix_timestamp_request": 191616.295931,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/etc.clientlibs/microsoft/clientlibs/clientlib-mwf-featureControlled/main-light.min.ACSHASH4c27348ffc095e0848f7ea06b415d7ab.css",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "6b35a60",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e97b.0",
+        "ms-cv": "CASMicrosoftCV1992e97b.0",
+        "content-length": "9902",
+        "last-modified": "Wed, 31 May 2023 18:03:54 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "90e9525",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e98b.0",
+        "ms-cv": "CASMicrosoftCV1992e98b.0",
+        "content-length": "168",
+        "last-modified": "Mon, 15 May 2023 18:01:50 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "9e2ce3f",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9fb.0",
+        "ms-cv": "CASMicrosoftCV1992e9fb.0",
+        "content-length": "654",
+        "last-modified": "Wed, 29 Mar 2023 19:36:48 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher2westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea0b.0",
+        "ms-cv": "CASMicrosoftCV1992ea0b.0",
+        "content-length": "145",
+        "last-modified": "Thu, 10 Jun 2021 16:40:09 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "6b35a60",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea4b.0",
+        "ms-cv": "CASMicrosoftCV1992ea4b.0",
+        "content-length": "1053",
+        "last-modified": "Wed, 31 May 2023 18:03:56 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "6b35a60",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9db.0",
+        "ms-cv": "CASMicrosoftCV1992e9db.0",
+        "content-length": "13541",
+        "last-modified": "Wed, 31 May 2023 18:03:53 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-origin-mex-latency": "12",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9ab.0",
+        "ms-cv": "CASMicrosoftCV1992e9ab.0",
+        "content-length": "166",
+        "last-modified": "Mon, 09 Jan 2023 19:26:58 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e99b.0",
+        "ms-cv": "CASMicrosoftCV1992e99b.0",
+        "content-length": "220",
+        "last-modified": "Mon, 09 Jan 2023 19:26:58 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "90e9525",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9cb.0",
+        "ms-cv": "CASMicrosoftCV1992e9cb.0",
+        "content-length": "116383",
+        "last-modified": "Wed, 29 Mar 2023 19:36:44 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea6b.0",
+        "ms-cv": "CASMicrosoftCV1992ea6b.0",
+        "content-length": "375",
+        "last-modified": "Mon, 27 Jun 2022 17:56:51 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "6b35a60",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea3b.0",
+        "ms-cv": "CASMicrosoftCV1992ea3b.0",
+        "content-length": "1016",
+        "last-modified": "Wed, 31 May 2023 18:03:55 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-origin-mex-latency": "20",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea1b.0",
+        "ms-cv": "CASMicrosoftCV1992ea1b.0",
+        "content-length": "64777",
+        "last-modified": "Wed, 29 Mar 2023 19:36:48 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher3westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "6b35a60",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e96b.0",
+        "ms-cv": "CASMicrosoftCV1992e96b.0",
+        "content-length": "779",
+        "last-modified": "Wed, 31 May 2023 18:03:57 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "ms-operation-id": "1735151da500b142ad0ce200b3497187",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "RT",
+        "x-s2": "2023-04-04T19:12:07",
+        "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+        "x-activity-id": "579f8b36-5f54-4f3c-aa6a-6156eb47491a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9bb.0",
+        "ms-cv": "CASMicrosoftCV1992e9bb.0",
+        "content-length": "35909",
+        "x-xss-protection": "1; mode=block",
+        "last-modified": "Tue, 04 Apr 2023 19:12:07 GMT",
+        "x-az": "{did:92e7dc58ca2143cfb2c818b047cc5cd1, rid: OneDeployContainer, sn: marketingsites-prod-odnortheurope, dt: 2018-05-03T20:14:23.4188992Z, bt: 2023-03-10T08:58:24.0000000Z}",
+        "x-s1": "2023-04-04T19:12:07",
+        "access-control-allow-methods": "HEAD,GET,POST,PATCH,PUT,OPTIONS",
+        "content-type": "text/javascript; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=26554668",
+        "vary": "Accept-Encoding",
+        "timing-allow-origin": "*",
+        "x-appversion": "1.0.8468.43152",
+        "expires": "Wed, 03 Apr 2024 19:11:38 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher2westeurope",
+        "x-edgeconnect-origin-mex-latency": "9",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "90e9525",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e95b.0",
+        "ms-cv": "CASMicrosoftCV1992e95b.0",
+        "content-length": "113",
+        "last-modified": "Mon, 15 May 2023 17:51:35 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Windows-Logo-80x80?wid=40&hei=40",
+      "unix_timestamp_request": 191616.364895,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80?wid=40&hei=40",
+      "unix_timestamp_request": 191616.365155,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Xbox-Logo-80x80?wid=40&hei=40",
+      "unix_timestamp_request": 191616.36536,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Keyboard-Mouse?wid=40&hei=40",
+      "unix_timestamp_request": 191616.365657,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-briefcase-120x120?wid=40&hei=40",
+      "unix_timestamp_request": 191616.36588,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992e9eb.0",
+        "ms-cv": "CASMicrosoftCV1992e9eb.0",
+        "content-length": "131",
+        "last-modified": "Wed, 21 Jul 2021 20:49:06 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "x-edgeconnect-origin-mex-latency": "9",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "fbf602a",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea2b.0",
+        "ms-cv": "CASMicrosoftCV1992ea2b.0",
+        "content-length": "1281",
+        "last-modified": "Wed, 07 Sep 2022 17:51:54 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "last-modified": "Wed, 17 May 2023 18:00:37 GMT",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "x-frame-options": "SAMEORIGIN",
+        "ms-commit-id": "629a343",
+        "content-type": "application/javascript;charset=utf-8",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992ea5b.0",
+        "accept-ranges": "bytes",
+        "ms-cv": "CASMicrosoftCV1992ea5b.0",
+        "content-length": "0"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher1westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "2d25e3d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992eb8b.0",
+        "ms-cv": "CASMicrosoftCV1992eb8b.0",
+        "content-length": "26583",
+        "last-modified": "Wed, 29 Mar 2023 19:36:44 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/octet-stream",
+        "cache-control": "public, max-age=20778",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "ms-operation-id": "3810de68e936cc4ab3c680aa7b0217d1",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "x-rtag": "RT",
+        "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+        "x-activity-id": "bc9f7210-3b5b-40c3-8f9e-831b9eca645f",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1992eb7b.0",
+        "ms-cv": "CASMicrosoftCV1992eb7b.0",
+        "content-length": "26288",
+        "x-xss-protection": "1; mode=block",
+        "last-modified": "Wed, 04 Jan 2023 20:32:49 GMT",
+        "x-az": "{did:92e7dc58ca2143cfb2c818b047cc5cd1, rid: OneDeployContainer, sn: marketingsites-prod-odnortheurope, dt: 2018-05-03T20:14:23.4188992Z, bt: 2022-12-08T12:39:44.0000000Z}",
+        "access-control-allow-methods": "HEAD,GET,POST,PATCH,PUT,OPTIONS",
+        "content-type": "application/font-woff",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=18783539",
+        "x-appversion": "1.0.8377.8392",
+        "expires": "Thu, 04 Jan 2024 20:32:49 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Mon, 26 Sep 2022 18:10:52 GMT",
+        "-x-adobe-smart-imaging": "252",
+        "server": "Unknown",
+        "etag": "\"bc49f08510dbea791f846068345e7632\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "386",
+        "expires": "Thu, 01 Jun 2023 16:21:46 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Fri, 19 Aug 2022 23:21:39 GMT",
+        "-x-adobe-smart-imaging": "387",
+        "server": "Unknown",
+        "etag": "\"7522740dd774685b013d8f777bf092ef\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "318",
+        "expires": "Thu, 01 Jun 2023 17:31:09 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Mon, 26 Sep 2022 18:10:52 GMT",
+        "-x-adobe-smart-imaging": "315",
+        "server": "Unknown",
+        "etag": "\"2309d2306396eb04ba1fb65ea1f8194b\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "410",
+        "expires": "Thu, 01 Jun 2023 20:52:55 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Mon, 09 Jan 2023 17:35:22 GMT",
+        "-x-adobe-smart-imaging": "342",
+        "server": "Unknown",
+        "etag": "\"904924116a3cb800ca16e45be4184b9c\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "510",
+        "expires": "Thu, 01 Jun 2023 14:42:34 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "last-modified": "Mon, 10 Oct 2022 22:59:05 GMT",
+        "-x-adobe-smart-imaging": "337",
+        "server": "Unknown",
+        "etag": "\"a60253d2ac5cdc5fa970e0e55fbc35ff\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "398",
+        "expires": "Thu, 01 Jun 2023 15:08:52 GMT"
+      }
+    },
+    {
+      "request_url": "https://fpt.microsoft.com/tags?session_id=953e0f5e-c42b-4cf2-b4c2-e3b1eb60532b",
+      "unix_timestamp_request": 191616.457434,
+      "request_headers": {
+        "Referer": "https://www.microsoft.com/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.2.7.gbl.min.js",
+      "unix_timestamp_request": 191616.460518,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://mem.gfx.ms/scripts/me/MeControl/10.23082.2/nl-NL/meBoot.min.js",
+      "unix_timestamp_request": 191616.487588,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:49 GMT",
+        "content-encoding": "br",
+        "x-ms-meta-jssdkver": "3.2.7",
+        "last-modified": "Wed, 05 Oct 2022 16:53:03 GMT",
+        "x-azure-ref-originshield": "0Jb9oZAAAAAAa6uLGwHkLQIG1/IVKZmLLQU1TMDRFREdFMTgxMQBmMWNhNzNkNC04ODgzLTRjYWYtYWJkYy1mZTJkNTY3YWZiOTY=",
+        "content-md5": "bG4aPNgugaurnXq8OXoQfQ==",
+        "etag": "0x8DAA6F2118B127C",
+        "x-azure-ref": "0vnh4ZAAAAADwLwyLudzvRYTPmBSAiyLdQlJVMzBFREdFMDQwOQBmMWNhNzNkNC04ODgzLTRjYWYtYWJkYy1mZTJkNTY3YWZiOTY=",
+        "x-cache": "TCP_HIT",
+        "content-type": "text/javascript; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-ms-request-id": "ad408814-701e-00c1-05fc-8a37cd000000",
+        "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,x-ms-meta-jssdkver,Content-Type,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+        "cache-control": "public, max-age=31536000, immutable, no-transform",
+        "x-ms-version": "2009-09-19"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "date": "Thu, 01 Jun 2023 10:53:49 GMT",
+        "last-modified": "Tue, 16 May 2023 22:42:02 GMT",
+        "x-azure-ref-originshield": "0tMV3ZAAAAAAMiYSKmIOtQ6AVcl2PTZu+QU1TMDRFREdFMTgxNgBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "etag": "\"1d988824e0372ff\"",
+        "x-azure-ref": "0vnh4ZAAAAABX6pEIqYjmQrIC8x50fJelQlJVMzBFREdFMDQwOQBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "x-cache": "TCP_HIT",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "x-ua-compatible": "IE=edge"
+      }
+    },
+    {
+      "response_headers": {
+        "access-control-allow-origin": "*",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "server": "Microsoft-HTTPAPI/2.0",
+        "vary": "Accept-Encoding"
+      }
+    },
+    {
+      "request_url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' stroke='%23707070'%3E%3Cg class='mectrl_stroke' stroke-width='1.9' fill='none'%3E%3Ccircle cx='32' cy='32' r='30.25'/%3E%3Cg transform='matrix(1.1 0 0 1.1 8.8 5.61)'%3E%3Ccircle class='mectrl_stroke' cx='20' cy='16' r='7'/%3E%3Cpath class='mectrl_stroke' d='M30 35h10m-5-5v10M30.833 32.09A11 11 0 009 34'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E",
+      "unix_timestamp_request": 191616.548352,
+      "request_headers": {
+        "Referer": "",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "response_headers": {
+        "Content-Type": "image/svg+xml;charset=utf-8"
+      }
+    },
+    {
+      "request_url": "https://fpt2.microsoft.com/Clear.HTML?ctx=Ls1.0&wl=False&session_id=953e0f5e-c42b-4cf2-b4c2-e3b1eb60532b&id=cf7d32f7-9551-4246-ac24-7f55ad9ff7f1&w=8DB628E7BFB02C0&tkt=H3ihr9e92IdW6yd1ZgQ9SyoufAf2k3o4JywpA2nh2nOBzRo8VJ4rG6aNRJrSZmPTAIr8I83BzNsjS%252babqFY6SjFy5CQs3vd%252fPQWMKoFPy%252bYrxFbZAnculu3gfiKeKE7HNmNWv5YJTUrAjLgmza%252bh8pDlF8pQBVJ121cX8qqdL1vcopas5QG8liJyLADmwd4z5KxYZUEYP0iQAMaRYbm%252bSgSAusry2IyEB5Ewe9TX1XJ3Z8VyLFOB%252fNaselL8JqdQu0qK96LOAlvT4FHxpdk%252ff8vymzB0ChCZSNCs9SXKc7NQZFlINxgS9j%252bKt",
+      "unix_timestamp_request": 191616.841221,
+      "request_headers": {
+        "Referer": "https://fpt.microsoft.com/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://fpt.microsoft.com/Images/Clear.PNG?ctx=jscb1.0&session_id=953e0f5e-c42b-4cf2-b4c2-e3b1eb60532b&CustomerId=02C58649-E822-405B-B6C3-17A7509D2FCC&esi=YnVhPU1vemlsbGEvNS4wIChYMTE7IExpbnV4IHg4Nl82NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMi4wLjAuMCBTYWZhcmkvNTM3LjM2Jm9zPUxpbnV4IHg4Nl82NCZscHJvYz04Jm9sPXRydWUmcnR0PTUwJmNocm09dHJ1ZSZwcm9zdWI9MjAwMzAxMDcmZXZhbD0zMyZhcHB2PTUuMCAoWDExOyBMaW51eCB4ODZfNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTIuMC4wLjAgU2FmY",
+      "unix_timestamp_request": 191616.836395,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://fpt.microsoft.com/tags?session_id=953e0f5e-c42b-4cf2-b4c2-e3b1eb60532b",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "access-control-allow-origin": "*",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "content-encoding": "gzip",
+        "server": "Microsoft-HTTPAPI/2.0",
+        "content-length": "0",
+        "vary": "Accept-Encoding",
+        "content-type": "text/html"
+      }
+    },
+    {
+      "response_headers": {
+        "access-control-allow-origin": "*",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Thu, 01 Jun 2023 10:53:50 GMT",
+        "server": "Microsoft-HTTPAPI/2.0",
+        "vary": "Accept-Encoding"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+      "unix_timestamp_request": 191617.462615,
+      "request_headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "apikey,cache-control,client-id,client-version,content-type,time-delta-to-apply-millis,upload-time",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "https://www.microsoft.com",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+      "unix_timestamp_request": 191617.454793,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "upload-time": "1685616831742",
+        "sec-ch-ua-mobile": "?0",
+        "client-version": "1DS-Web-JS-3.2.8",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "time-delta-to-apply-millis": "use-collector-delta",
+        "content-type": "application/x-json-stream",
+        "cache-control": "no-cache, no-store",
+        "Referer": "https://www.microsoft.com/",
+        "apikey": "aacbcf0ee7614738b1ea4f99c23f2e82-63b77ecc-8c62-4513-aa1f-a12a5ed8c015-6865",
+        "Client-Id": "NO_AUTH",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "AuthMsaDeviceTicket,AuthXToken,Content-Encoding,Content-Type,Cache-Control,Client-Id,SDK-Name,sdk-version,apikey,x-apikey,client-version,upload-time,time-delta-to-apply-millis,client-time-epoch-millis,persistence-mode,reliability-mode,NoResponseBody",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Max-Age": "3600",
+        "Cache-Control": "public, 3600",
+        "Content-Length": "0",
+        "Date": "Thu, 01 Jun 2023 10:53:51 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "Strict-Transport-Security": "max-age=31536000"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+      "unix_timestamp_request": 191618.537777,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "upload-time": "1685616832827",
+        "sec-ch-ua-mobile": "?0",
+        "client-version": "1DS-Web-JS-3.2.7",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "time-delta-to-apply-millis": "use-collector-delta",
+        "content-type": "application/x-json-stream",
+        "cache-control": "no-cache, no-store",
+        "Referer": "https://www.microsoft.com/",
+        "apikey": "b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888",
+        "Client-Id": "NO_AUTH",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "cache-control": "public, max-age=31557600",
+        "server": "Werkzeug/2.2.2 Python/3.9.16",
+        "content-length": "43",
+        "content-type": "image/gif"
+      }
+    },
+    {
+      "request_url": "https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=69e2201e-8e8d-4d0c-ad1c-34af7e0fcfb7&partnerId=mshomepage",
+      "unix_timestamp_request": 191619.165918,
+      "request_headers": {
+        "Referer": "https://www.microsoft.com/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://mem.gfx.ms/scripts/me/MeControl/10.23082.2/nl-NL/meCore.min.js",
+      "unix_timestamp_request": 191619.162481,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "Origin": "https://www.microsoft.com",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/store/buy/cartcount",
+      "unix_timestamp_request": 191619.19932,
+      "request_headers": {
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Go-2-Platinum-Type-Cover?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.20535,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-M365-Icon-Bounce-Word-Merch?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.205643,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.205894,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Test-Surface-Pro-9-Contextual-Lifestyle-01?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.206193,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "date": "Thu, 01 Jun 2023 10:53:52 GMT",
+        "last-modified": "Tue, 16 May 2023 22:42:10 GMT",
+        "x-azure-ref-originshield": "0tMV3ZAAAAADP+5adDibkRaz5AgGl0eVHQU1TMDRFREdFMTgxMgBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "etag": "\"1d9888252c7ef38\"",
+        "x-azure-ref": "0wXh4ZAAAAAAoCxQ+UfQUSIkHY6zyaRooQlJVMzBFREdFMDQwOQBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "x-cache": "TCP_HIT",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "x-ua-compatible": "IE=edge"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Mon, 14 Feb 2022 20:41:48 GMT",
+        "-x-adobe-smart-imaging": "1845",
+        "server": "Unknown",
+        "etag": "\"f0dabb1152014ada9cadfe2eaef3226c\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "2962",
+        "expires": "Thu, 01 Jun 2023 17:23:12 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Wed, 01 Mar 2023 08:00:03 GMT",
+        "-x-adobe-smart-imaging": "5836",
+        "server": "Unknown",
+        "etag": "\"d27f7a6ce95aa7b96a70555dca31ddbd\"",
+        "content-type": "image/avif",
+        "access-control-allow-origin": "*",
+        "content-length": "9166",
+        "expires": "Thu, 01 Jun 2023 13:53:52 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Sat, 15 May 2021 00:55:51 GMT",
+        "-x-adobe-smart-imaging": "15",
+        "server": "Unknown",
+        "etag": "\"0b1c0d8fe206f94b218fe5f65c3916aa\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "3304",
+        "expires": "Thu, 01 Jun 2023 12:53:54 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Wed, 12 Oct 2022 16:17:41 GMT",
+        "-x-adobe-smart-imaging": "4814",
+        "server": "Unknown",
+        "etag": "\"0b3d4a65dcfab06fc8e777f74eec891b\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "4444",
+        "expires": "Thu, 01 Jun 2023 16:22:35 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "Cache-Control": "no-store, no-cache",
+        "Content-Encoding": "gzip",
+        "Content-Length": "4871",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 01 Jun 2023 10:53:52 GMT",
+        "Expires": "Thu, 01 Jun 2023 10:52:53 GMT",
+        "Link": "<https://logincdn.msauth.net>; rel=preconnect; crossorigin\n<https://acctcdn.msauth.net>; rel=preconnect; crossorigin\n<https://acctcdn.msftauth.net>; rel=preconnect; crossorigin\n<https://acctcdn.msauth.net/>; rel=dns-prefetch\n<https://acctcdn.msftauth.net/>; rel=dns-prefetch\n<https://acctcdnmsftuswe2.azureedge.net/>; rel=dns-prefetch\n<https://acctcdnvzeuno.azureedge.net/>; rel=dns-prefetch\n<https://logincdn.msauth.net/>; rel=dns-prefetch\n<https://logincdn.msftauth.net/>; rel=dns-prefetch\n<https://lgincdnvzeuno.azureedge.net/>; rel=dns-prefetch\n<https://lgincdnmsftuswe2.azureedge.net/>; rel=dns-prefetch",
+        "P3P": "CP=\"DSP CUR OTPi IND OTRi ONL FIN\"",
+        "PPServer": "PPV: 30 H: BL6PPF7DF99D5CB V: 0",
+        "Pragma": "no-cache",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-DNS-Prefetch-Control": "on",
+        "X-XSS-Protection": "1; mode=block",
+        "x-ms-request-id": "6988564f-81f4-44d7-91e7-434f57c1dd5b",
+        "x-ms-route-info": "C105_BL2"
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Pro-9-Business-Pro-Keyboard-Black?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.327072,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Thu, 01 Jun 2023 10:53:52 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "time-delta-millis": "1765",
+        "Access-Control-Allow-Methods": "POST",
+        "P3P": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Expose-Headers": "time-delta-millis",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "P3P,Set-Cookie,time-delta-millis",
+        "Content-Length": "153"
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Sun, 16 Apr 2023 03:25:30 GMT",
+        "-x-adobe-smart-imaging": "2774",
+        "server": "Unknown",
+        "etag": "\"8c1f03098e1b61b76b42663760da7489\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "3388",
+        "expires": "Thu, 01 Jun 2023 16:44:48 GMT"
+      }
+    },
+    {
+      "request_url": "https://mem.gfx.ms/me/mecache?partner=mshomepage&wreply=https%3A%2F%2Fwww.microsoft.com",
+      "unix_timestamp_request": 191619.367048,
+      "request_headers": {
+        "Referer": "https://www.microsoft.com/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "cache-control": "public, no-transform, max-age=43200",
+        "content-encoding": "br",
+        "content-security-policy": "frame-ancestors https://www.microsoft.com;",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "expires": "Thu, 01 Jun 2023 12:00:21 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-azure-ref": "0wXh4ZAAAAAAzD3SAypT5QLhTL6zI7Wp3QlJVMzBFREdFMDQyMgBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "x-azure-ref-originshield": "0OOx3ZAAAAADSA6jb5uCoTZ2bzRnmft6xQU1TMDRFREdFMTgxMgBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=",
+        "x-cache": "TCP_HIT",
+        "x-content-type-options": "nosniff",
+        "x-ua-compatible": "IE=edge"
+      }
+    },
+    {
+      "response_headers": {
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "time-delta-millis": "790",
+        "Access-Control-Allow-Methods": "POST",
+        "P3P": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Expose-Headers": "time-delta-millis",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "P3P,Set-Cookie,time-delta-millis",
+        "Content-Length": "196"
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.458372,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/experimentation.ACSHASH895e2a12062f1ee44d7d72d266904bde.min.js",
+      "unix_timestamp_request": 191619.480658,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Fri, 02 Dec 2022 02:04:38 GMT",
+        "-x-adobe-smart-imaging": "5905",
+        "server": "Unknown",
+        "etag": "\"c20d3aafa5beec1321c5e874e7ba270d\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "9728",
+        "expires": "Thu, 01 Jun 2023 16:37:57 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "access-control-allow-methods": "HEAD,GET,POST,PATCH,PUT,OPTIONS",
+        "cache-control": "max-age=9315",
+        "content-encoding": "gzip",
+        "content-length": "489",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "expires": "Thu, 01 Jun 2023 13:29:08 GMT",
+        "ms-cv": "CASMicrosoftCV1993272b.0",
+        "ms-cv-esi": "CASMicrosoftCV1993272b.0",
+        "ms-operation-id": "2d9a54363a604845a2745807a170b20b",
+        "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+        "pragma": "no-cache",
+        "strict-transport-security": "max-age=15724800; includeSubDomains",
+        "tls_version": "tls1.3",
+        "vary": "Accept-Encoding",
+        "x-activity-id": "accdb01f-c953-4891-8396-9c772f67eebe",
+        "x-appversion": "1.0.8528.33303",
+        "x-az": "{did:92e7dc58ca2143cfb2c818b047cc5cd1, rid: OneDeployContainer, sn: aks-storeexp-production-northeurope, dt: 2018-05-03T20:14:23.4188992Z, bt: 2023-05-08T18:30:06.0000000Z}",
+        "x-content-type-options": "nosniff",
+        "x-edgeconnect-midmile-rtt": "0",
+        "x-edgeconnect-origin-mex-latency": "228",
+        "x-rtag": "Str",
+        "x-xss-protection": "1; mode=block"
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Brand-Hybrid-Work?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.591507,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "last-modified": "Thu, 17 Feb 2022 17:00:34 GMT",
+        "-x-adobe-smart-imaging": "3587",
+        "server": "Unknown",
+        "etag": "\"731acb5f324f1494ddbf802d53ba4299\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "2758",
+        "expires": "Thu, 01 Jun 2023 17:23:10 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "x-dispatcher": "dispatcher2westeurope",
+        "date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "AEM_PROD_Static",
+        "x-vhost": "publish_microsoft_s",
+        "ms-commit-id": "8b92a7d",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV19932d0b.0",
+        "ms-cv": "CASMicrosoftCV19932d0b.0",
+        "content-length": "32775",
+        "last-modified": "Wed, 13 Apr 2022 17:40:47 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript;charset=utf-8",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "request_url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=297&hei=167&fit=crop",
+      "unix_timestamp_request": 191619.727043,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Thu, 01 Jun 2023 10:53:54 GMT",
+        "last-modified": "Tue, 12 Oct 2021 07:09:51 GMT",
+        "-x-adobe-smart-imaging": "4532",
+        "server": "Unknown",
+        "etag": "\"96feacbe691d969cc75cad7c04854469\"",
+        "content-type": "image/webp",
+        "access-control-allow-origin": "*",
+        "content-length": "4132",
+        "expires": "Thu, 01 Jun 2023 15:07:51 GMT"
+      }
+    },
+    {
+      "request_url": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=4c9ed9f7aa124c42af745310ec8a9730&version=2.4.0",
+      "unix_timestamp_request": 191619.836828,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "Referer": "https://www.microsoft.com/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "Content-Type": "text/plain"
+      }
+    },
+    {
+      "request_url": "https://www.microsoft.com/favicon.ico?v2",
+      "unix_timestamp_request": 191619.841858,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.microsoft.com/nl-nl/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:54 GMT",
+        "content-encoding": "gzip",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "accept-ch": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List",
+        "server": "jag",
+        "x-content-type-options": "nosniff",
+        "vary": "origin,access-control-request-method,access-control-request-headers,accept-encoding",
+        "content-type": "application/json;charset=UTF-8",
+        "access-control-allow-origin": "https://www.microsoft.com",
+        "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+        "access-control-allow-credentials": "true",
+        "timing-allow-origin": "*",
+        "x-xss-protection": "1; mode=block",
+        "x-request-id": "ec04e38d-9d43-46b5-8ad7-cbc3e405b21f"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 10:53:54 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "x-rtag": "RT",
+        "p3p": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"",
+        "tls_version": "tls1.3",
+        "ms-cv-esi": "CASMicrosoftCV1993333b.0",
+        "ms-cv": "CASMicrosoftCV1993333b.0",
+        "content-length": "17174",
+        "last-modified": "Wed, 08 Mar 2023 00:14:37 GMT",
+        "etag": "\"1D95152F7C21480\"",
+        "x-sitemuse-origin": "Azure",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "content-type": "image/x-icon",
+        "x-azure-ref": "0Qnh3ZAAAAAA5nXfbT3CURbEGQaiA5jPuRlJBMjMxMDUwNDE3MDI3ADFiMmIyMmMxLWNiMGMtNDk1MC04ODc5LWQyMTJmMmFjNWE0Yg==",
+        "cache-control": "public, max-age=20736",
+        "access-control-allow-credentials": "true",
+        "accept-ranges": "bytes",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "expires": "Thu, 01 Jun 2023 16:39:30 GMT"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D9aadbf4e02dd4a9ea7acf68a3114243b%26HASH%3D9aad%26LV%3D202306%26V%3D4%26LU%3D1685616833617&w=0",
+      "unix_timestamp_request": 191620.246633,
+      "request_headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "apikey,cache-control,client-id,client-version,content-type,time-delta-to-apply-millis,upload-time",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "https://www.microsoft.com",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D9aadbf4e02dd4a9ea7acf68a3114243b%26HASH%3D9aad%26LV%3D202306%26V%3D4%26LU%3D1685616833617&w=0",
+      "unix_timestamp_request": 191620.242729,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "upload-time": "1685616834535",
+        "sec-ch-ua-mobile": "?0",
+        "client-version": "1DS-Web-JS-3.2.8",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "time-delta-to-apply-millis": "1765",
+        "content-type": "application/x-json-stream",
+        "cache-control": "no-cache, no-store",
+        "Referer": "https://www.microsoft.com/",
+        "apikey": "aacbcf0ee7614738b1ea4f99c23f2e82-63b77ecc-8c62-4513-aa1f-a12a5ed8c015-6865",
+        "Client-Id": "NO_AUTH",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "AuthMsaDeviceTicket,AuthXToken,Content-Encoding,Content-Type,Cache-Control,Client-Id,SDK-Name,sdk-version,apikey,x-apikey,client-version,upload-time,time-delta-to-apply-millis,client-time-epoch-millis,persistence-mode,reliability-mode,NoResponseBody",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Max-Age": "3600",
+        "Cache-Control": "public, 3600",
+        "Content-Length": "0",
+        "Date": "Thu, 01 Jun 2023 10:53:53 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "Strict-Transport-Security": "max-age=31536000"
+      }
+    },
+    {
+      "response_headers": {
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Thu, 01 Jun 2023 10:53:54 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "time-delta-millis": "333",
+        "Access-Control-Allow-Methods": "POST",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Expose-Headers": "time-delta-millis",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "time-delta-millis",
+        "Content-Length": "24"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D3211a700787c43e7838f911e00c7911d%26HASH%3D3211%26LV%3D202306%26V%3D4%26LU%3D1685616833507&w=0",
+      "unix_timestamp_request": 191621.233517,
+      "request_headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "apikey,cache-control,client-id,client-version,content-type,time-delta-to-apply-millis,upload-time",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "https://www.microsoft.com",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D3211a700787c43e7838f911e00c7911d%26HASH%3D3211%26LV%3D202306%26V%3D4%26LU%3D1685616833507&w=0",
+      "unix_timestamp_request": 191621.229746,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "upload-time": "1685616835522",
+        "sec-ch-ua-mobile": "?0",
+        "client-version": "1DS-Web-JS-3.2.7",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "time-delta-to-apply-millis": "790",
+        "content-type": "application/x-json-stream",
+        "cache-control": "no-cache, no-store",
+        "Referer": "https://www.microsoft.com/",
+        "apikey": "b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888",
+        "Client-Id": "NO_AUTH",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&ext.intweb.msfpc=GUID%3D9aadbf4e02dd4a9ea7acf68a3114243b%26HASH%3D9aad%26LV%3D202306%26V%3D4%26LU%3D1685616833617&w=0",
+      "unix_timestamp_request": 191621.246772,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "upload-time": "1685616835540",
+        "sec-ch-ua-mobile": "?0",
+        "client-version": "1DS-Web-JS-3.2.8",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "time-delta-to-apply-millis": "1765",
+        "content-type": "application/x-json-stream",
+        "cache-control": "no-cache, no-store",
+        "Referer": "https://www.microsoft.com/",
+        "apikey": "aacbcf0ee7614738b1ea4f99c23f2e82-63b77ecc-8c62-4513-aa1f-a12a5ed8c015-6865",
+        "Client-Id": "NO_AUTH",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "AuthMsaDeviceTicket,AuthXToken,Content-Encoding,Content-Type,Cache-Control,Client-Id,SDK-Name,sdk-version,apikey,x-apikey,client-version,upload-time,time-delta-to-apply-millis,client-time-epoch-millis,persistence-mode,reliability-mode,NoResponseBody",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Max-Age": "3600",
+        "Cache-Control": "public, 3600",
+        "Content-Length": "0",
+        "Date": "Thu, 01 Jun 2023 10:53:54 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "Strict-Transport-Security": "max-age=31536000"
+      }
+    },
+    {
+      "response_headers": {
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Thu, 01 Jun 2023 10:53:55 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "time-delta-millis": "109",
+        "Access-Control-Allow-Methods": "POST",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Expose-Headers": "time-delta-millis",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "time-delta-millis",
+        "Content-Length": "24"
+      }
+    },
+    {
+      "response_headers": {
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Thu, 01 Jun 2023 10:53:55 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "time-delta-millis": "345",
+        "Access-Control-Allow-Methods": "POST",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "https://www.microsoft.com",
+        "Access-Control-Expose-Headers": "time-delta-millis",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "time-delta-millis",
+        "Content-Length": "71"
+      }
+    }
+  ],
+  "cookies": [
+    {
+      "name": "AEMDC",
+      "value": "westeurope",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 15,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "akacd_OneRF",
+      "value": "1693392829~rv=76~id=7382d257dd0c0bb5cdda5b0124d8d132",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1693392829.327868,
+      "size": 63,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MicrosoftApplicationsTelemetryDeviceId",
+      "value": "9478523d-061c-4574-bd50-15b5467038f6",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1717152830.811334,
+      "size": 74,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "ai_session",
+      "value": "iwOJBuJNy96H1CMSJ9xjtJ|1685616830734|1685616830814",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1685618630,
+      "size": 60,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MUID",
+      "value": "cf7d32f795514246ac247f55ad9ff7f1",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1717239230.843038,
+      "size": 36,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "fptctx2",
+      "value": "H3ihr9e92IdW6yd1ZgQ9SyoufAf2k3o4JywpA2nh2nOBzRo8VJ4rG6aNRJrSZmPTAIr8I83BzNsjS%252babqFY6SnSPGtV5mV3XhbT8dEI1nwGVxNzEIEAcK4fpcZUPtOmwDWbWUYR0TEs%252bOR%252fS%252bXs3MN%252bgWBBS%252bBeLoff99tvRyA7RZ5kus%252bRVWpjsccLI%252beU38OeJPOeIUDFZoKLuggbrsjwm5D9RhDDXzuo7Q4pFQhC3gBtHKiQtReycvV017YzW0aicqiZs4aiMcyOYl%252bS8aOb3XHr6RyEV4CKhSh1KB%252f3usrg9OyGQR9H%252fWDZOTeeIZ3Bi%252bg%252fAKq3Ne9AsXtFME%252fsb1A0YHVtFDYRt9YPJ%252bDc%253d",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 435,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "uaid",
+      "value": "69e2201e8e8d4d0cad1c34af7e0fcfb7",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MSPRequ",
+      "value": "id=N&lt=1685616833&co=1",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "size": 30,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "OParams",
+      "value": "11O.DYbw!hQXaX59V*rHNEUDOAhSVzQblO1*lDZ*QxXX2GodzJcl*prJ!D*E0U0PaEKSHOXopGB42GN!NRM5Oy0xFQzCuERXEGVY5lebD3Ne7hrfBP4Asd6bihCT!1Kvgz2n*CQqSwE0i1a*UeyHXoHYhhPS9ok!ZDli9GgIW*QuYvMoGr4dFcab8WnHRjclTVuIzEvQ6RHYZvp4dj!9KTKoltoST4K9GgdGMN1BBYx3svoMkLAc4Mtqj4Oyj7t20HVZ0fdbKpTCq3Ocjj!0KnNUBhA$",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "size": 291,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MC1",
+      "value": "GUID=9aadbf4e02dd4a9ea7acf68a3114243b&HASH=9aad&LV=202306&V=4&LU=1685616833617",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1717152833.736902,
+      "size": 81,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MS0",
+      "value": "ab53ffdfdebb4f6ab7d668dc74d4c0fd",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1685618633.736964,
+      "size": 35,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "MSFPC",
+      "value": "GUID=9aadbf4e02dd4a9ea7acf68a3114243b&HASH=9aad&LV=202306&V=4&LU=1685616833617",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1717152833.739715,
+      "size": 83,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "C432163E271A3268B1668B07F6E4E94E~000000000000000000000000000000~YAAQ5dMXAtfMBW6IAQAAgbSXdhM9o+waT4+qIgYFEATXQ255k4HHOA2pO1BNuFc/CxIHn+m/ZtjLTFx5mewmltgY51BiwUI1gt5ZWgAYYypGm7AF1qhuum2IyFK0fYo9cAAiU+cQWc9UCBqEzc6mZTKKhgHz8yldP3+CdVELencdXMTbaWuRqOtxaqAZ2PHPygG4oFeXCXeXFkZh+EQ5gEQPz4aNViUO88WXqSVAtTaGIL32IjBBPqnCI7wqo0Kw57cyxjkIYmM/hPORouqmsBiZEE/WRNGnL7rTms2jDzbPTGWKzlfKq8lGLeKZxdlBv+xU9LdomOYY6WthOsNn/tYyx9XnUXDE5+oXu1hGJhxtm1eGG4oKUZtoFTh05eMsuUKppRN6fjLlILvdnMRU",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1685624033.804202,
+      "size": 475,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "at_check",
+      "value": "true",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "mbox",
+      "value": "session#4c9ed9f7aa124c42af745310ec8a9730#1685618695|PC#4c9ed9f7aa124c42af745310ec8a9730.37_0#1688208835",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1688208835,
+      "size": 107,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "errors": []
+}

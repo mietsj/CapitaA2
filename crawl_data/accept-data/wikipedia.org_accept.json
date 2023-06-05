@@ -1,0 +1,313 @@
+{
+  "consent_flag": "True",
+  "tranco_rank": 10,
+  "website_domain": "http://www.wikipedia.org/",
+  "post_pageload_url": "https://www.wikipedia.org/",
+  "pageload_start_ts": 1685616967029,
+  "pageload_end_ts": 1685616994974,
+  "requests": [
+    {
+      "request_url": "http://www.wikipedia.org/",
+      "unix_timestamp_request": 191752.852186,
+      "request_headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/",
+      "unix_timestamp_request": 191752.8675,
+      "request_headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "age": "26549",
+        "cache-control": "s-maxage=86400, must-revalidate, max-age=3600",
+        "content-encoding": "gzip",
+        "content-length": "18194",
+        "content-type": "text/html",
+        "date": "Thu, 01 Jun 2023 03:33:37 GMT",
+        "etag": "W/\"127f9-5f98a07959e8f\"",
+        "last-modified": "Mon, 17 Apr 2023 15:41:51 GMT",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "server": "ATS/9.1.4",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "vary": "Accept-Encoding",
+        "x-cache": "cp3062 miss, cp3064 hit/446224",
+        "x-cache-status": "hit-front",
+        "x-client-ip": "145.137.138.145"
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
+      "unix_timestamp_request": 191753.015473,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-86c7e2579d.js",
+      "unix_timestamp_request": 191753.015909,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-ce3fe8e88d.js",
+      "unix_timestamp_request": 191753.016267,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg",
+      "unix_timestamp_request": 191753.02843,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png",
+      "unix_timestamp_request": 191753.044134,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 04:56:52 GMT",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "21554",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3054 miss, cp3064 hit/9886",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "15829",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 19 Mar 2018 11:07:26 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "\"3dd5-567c1f68d7393\"",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "image/png",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "accept-ranges": "bytes",
+        "expires": "Fri, 31 May 2024 04:56:52 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Wed, 31 May 2023 22:29:27 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "44800",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3056 hit, cp3064 hit/27647",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "8007",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 23 Jan 2023 16:34:23 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "W/\"578e-5f2f0f8cde6e2\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Wed, 31 May 2023 15:00:39 GMT",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "71727",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3054 hit, cp3064 hit/50865",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "614",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 12 Apr 2021 10:55:44 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "\"266-5bfc45b0342a5\"",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "application/javascript",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 07:43:04 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "11582",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3054 hit, cp3064 hit/10785",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "17557",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 07 Jun 2021 10:39:48 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "W/\"c1df-5c42aa91fa130\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "image/svg+xml",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "accept-ranges": "bytes",
+        "expires": "Fri, 31 May 2024 07:16:16 GMT"
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Wed, 31 May 2023 12:36:04 GMT",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "80402",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3054 hit, cp3064 hit/30212",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "2066",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 19 Mar 2018 11:07:26 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "\"812-567c1f68d7393\"",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "image/png",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "accept-ranges": "bytes",
+        "expires": "Thu, 30 May 2024 10:56:36 GMT"
+      }
+    },
+    {
+      "request_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "unix_timestamp_request": 191753.487425,
+      "request_headers": {
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"Chromium\";v=\"112\"",
+        "Referer": "https://www.wikipedia.org/",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\""
+      }
+    },
+    {
+      "response_headers": {
+        "date": "Thu, 01 Jun 2023 04:06:15 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "age": "24592",
+        "x-cache-status": "hit-front",
+        "x-cache": "cp3060 hit, cp3064 hit/983287",
+        "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp3064\"",
+        "content-length": "1035",
+        "x-client-ip": "145.137.138.145",
+        "last-modified": "Mon, 14 Mar 2016 18:08:11 GMT",
+        "server": "ATS/9.1.4",
+        "etag": "W/\"aae-52e0629e358c0\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "content-type": "image/vnd.microsoft.icon",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=31536000",
+        "accept-ranges": "bytes",
+        "expires": "Fri, 31 May 2024 04:06:15 GMT"
+      }
+    }
+  ],
+  "cookies": [
+    {
+      "name": "WMF-Last-Access",
+      "value": "01-Jun-2023",
+      "domain": "www.wikipedia.org",
+      "path": "/",
+      "expires": 1688368950.297411,
+      "size": 26,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "WMF-Last-Access-Global",
+      "value": "01-Jun-2023",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": 1688368950.297563,
+      "size": 33,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "GeoIP",
+      "value": "NL:GE:Nijmegen:51.82:5.87:v4",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": -1,
+      "size": 33,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "NetworkProbeLimit",
+      "value": "0.00010",
+      "domain": "www.wikipedia.org",
+      "path": "/",
+      "expires": 1685620567.787881,
+      "size": 24,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "errors": []
+}
