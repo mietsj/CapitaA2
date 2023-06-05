@@ -226,6 +226,7 @@ def create_table_4():
     i = 0
     while i < len(exercise4[0][0]):
         exercise4_combined.append([exercise4[0][0][i], exercise4[0][1][i] + exercise4[1][1][i]])
+        i = i + 1
 
     new_list = sorted(exercise4_combined, key=lambda l:l[1], reverse=True)
     print(new_list)
@@ -266,6 +267,7 @@ def create_table_6():
     i = 0
     while i < len(exercise6[0][0]):
         exercise6_combined.append([exercise6[0][0][i], exercise6[0][1][i] + exercise6[1][1][i]])
+        i = i + 1
 
     new_list = sorted(exercise6_combined, key=lambda l:l[1], reverse=True)
     print(new_list)
@@ -290,24 +292,32 @@ def create_table_6():
 if __name__ == "__main__":
     tracker_list = retrieve_tracker_list()
     
-    #
-    #with open("tranco-top-500-safe.csv", 'r') as file:
-    #    csvreader = csv.reader(file)
-    #    for row in csvreader:
-    #        print(row[1])
+    
+    with open("tranco-top-500-safe.csv", 'r') as file:
+        csvreader = csv.reader(file)
+        for row in csvreader:
+            if row[1] != "domain" and int(row[0]) < 11:
+                if int(row[0]) == 11:
+                    print("break")
+                    break
 
-    #Loop here
-    analyses_domain("Inleveren\www.google.com.json", tracker_list, 0)
-    analyses_domain("Inleveren\www.google.com.json", tracker_list, 1)
+                print(row[0], row[1])
+                analyses_domain("Data_New/accept-data/" + row[1] + "_accept.json", tracker_list, 0)
+                analyses_domain("Data_New/noop-data/" + row[1] + "_noop.json", tracker_list, 1)
 
     #Create boxplots and table
+    print("Starting exercise 2")
     create_boxplots_2()
+    print("Starting exercise 3")
     create_table_3()
 
     #Need more data for this to work
-    #create_table_4()
+    print("Starting exercise 4")
+    create_table_4()
+    print("Starting exercise 5")
     create_scatter_5()
-    #create_table_6()
+    print("Starting exercise 6")
+    create_table_6()
 
     
     
