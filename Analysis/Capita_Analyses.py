@@ -5,10 +5,11 @@ import statistics
 import matplotlib.pyplot as plt
 import pandas as pd
 import csv
+from prettytable import PrettyTable
 
 
 #Crawl-accept, Crawl-Noop
-error_type = [[],[]]
+error_type = [[[],[]],[[],[]]]
 page_load_times = [[],[]]
 number_requests = [[],[]]
 number_dist_third_parties = [[],[]]
@@ -25,6 +26,28 @@ exercise5 = [[[],[]],[[],[]]]
 exercise6 = [[[],[]],[[],[]]]
 
 request_most_cookies = [[],[]]
+
+def extract_error(filename, crawl):
+    with open(filename, "r") as read_file:
+        data = json.load(read_file)
+    if crawl == 0:
+        for error in data["errors"]:
+            if error["Page-error "]["error"]["name"] in error_type[crawl][0]:
+                error_type[crawl][1][error_type[crawl][0].index(error["Page-error "]["error"]["name"])] = error_type[crawl][1][error_type[crawl][0].index(error["Page-error "]["error"]["name"])] + 1
+            elif error["Page-error "]["error"]["name"] not in error_type[crawl][0]:
+                error_type[crawl][0].append(error["Page-error "]["error"]["name"])
+                error_type[crawl][1].append(1)
+                error_type[crawl + 1][0].append(error["Page-error "]["error"]["name"])
+                error_type[crawl + 1][1].append(0)
+    elif crawl == 1:
+        for error in data["errors"]:
+            if error["Page-error "]["error"]["name"] in error_type[crawl][0]:
+                error_type[crawl][1][error_type[crawl][0].index(error["Page-error "]["error"]["name"])] = error_type[crawl][1][error_type[crawl][0].index(error["Page-error "]["error"]["name"])] + 1
+            elif error["Page-error "]["error"]["name"] not in error_type[crawl][0]:
+                error_type[crawl][0].append(error["Page-error "]["error"]["name"])
+                error_type[crawl][1].append(1)
+                error_type[crawl - 1][0].append(error["Page-error "]["error"]["name"])
+                error_type[crawl - 1][1].append(0)
 
 def analyses_domain(filename, tracker_list, crawl):
     #Open json file
@@ -162,6 +185,13 @@ def retrieve_tracker_list():
 
 
 #1 Create table, number of failures/error Error type | Crawl-Accept | Crawl-noop
+def create_table_1():
+    myTable = PrettyTable(["Error type", "Crawl-accept", "Crawl-noop"])
+    for i, value in enumerate(error_type[0][0]):
+        myTable.add_row([error_type[0][0][i], error_type[0][1][i], error_type[1][1][i]])
+
+    with open('analysis_results/table1.txt', 'w', encoding="utf-8") as f:
+        f.write(str(myTable))
 
 
 #2 Create boxplots for crawl accept and crawl noop
@@ -295,8 +325,13 @@ if __name__ == "__main__":
         for row in csvreader:
             if row[1] != "domain" and int(row[0]) < 11:
                 print(row[0], row[1])
+                extract_error("crawl_data/accept-data/" + row[1] + "_accept.json", 0)
+                extract_error("crawl_data/noop-data/" + row[1] + "_noop.json", 1)
+
                 analyses_domain("crawl_data/accept-data/" + row[1] + "_accept.json", tracker_list, 0)
                 analyses_domain("crawl_data/noop-data/" + row[1] + "_noop.json", tracker_list, 1)
+    
+    create_table_1()
 
     #Create boxplots and table
     print("Starting exercise 2")
