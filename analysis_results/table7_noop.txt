@@ -1,0 +1,9 @@
+\begin{tabular}{lllllrlll}
+\hline
+ name     & value   & domain      & path   & expires                    &   size & httpOnly   & secure   & sameSite   \\
+\hline
+ CONSENT  & PENDI   & .google.com & /      & 2024-07-05 12:56:58.975305 &     18 & False      & True     & None       \\
+ BIDUPSID & 01107   & .baidu.com  & /      & 2024-07-05 12:58:28.714435 &     40 & False      & False    & None       \\
+ PSTM     & 16856   & .baidu.com  & /      & 2024-07-05 12:58:28.714505 &     14 & False      & False    & None       \\
+\hline
+\end{tabular}

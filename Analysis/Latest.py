@@ -58,7 +58,10 @@ def analyses_domain(filename, tracker_list, crawl):
         data = json.load(read_file)
 
     #Get page load time
-    page_load_times[crawl].append(data["pageload_end_ts"] - data["pageload_start_ts"])
+    endTime = datetime.fromtimestamp(data["pageload_end_ts"] / 1000)
+    startTime = datetime.fromtimestamp(data["pageload_start_ts"] / 1000)
+    pageLoadTimes = endTime - startTime
+    page_load_times[crawl].append(pageLoadTimes.total_seconds())
 
     third_party_domains = []
     tracker_domains = []
@@ -206,34 +209,38 @@ def create_table_1():
 #2.5 number of disctinct tracker entities/companies
 def create_boxplots_2():
     data = pd.DataFrame({"Crawl-accept": page_load_times[0], "Crawl-noop": page_load_times[1]})
-    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box', title='page_load_times')
+    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box')
     #plt.show()
-    plt.ylabel("Page load time()")
-    plt.savefig('analysis_results/page_load_times.png')
+    plt.ylabel("Page load time(s)")
+    plt.savefig('analysis_results/2_page_load_times.png')
     plt.close()
 
     data = pd.DataFrame({"Crawl-accept": number_requests[0], "Crawl-noop": number_requests[1]})
-    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box', title='number_requests')
+    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box')
     #plt.show()
-    plt.savefig('analysis_results/number_requests.png')
+    plt.ylabel("Number of requests")
+    plt.savefig('analysis_results/2_number_requests.png')
     plt.close()
 
     data = pd.DataFrame({"Crawl-accept": number_dist_third_parties[0], "Crawl-noop": number_dist_third_parties[1]})
-    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box', title='number_dist_third_parties')
+    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box')
     #plt.show()
-    plt.savefig('analysis_results/number_dist_third_parties.png')
+    plt.ylabel("Number of distinct third parties")
+    plt.savefig('analysis_results/2_number_dist_third_parties.png')
     plt.close()
 
     data = pd.DataFrame({"Crawl-accept": number_dist_tracker_domains[0], "Crawl-noop": number_dist_tracker_domains[1]})
-    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box', title='number_dist_tracker_domains')
+    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box')
     #plt.show()
-    plt.savefig('analysis_results/number_dist_tracker_domains.png')
+    plt.ylabel("Number of distinct tracker domains")
+    plt.savefig('analysis_results/2_number_dist_tracker_domains.png')
     plt.close()
 
     data = pd.DataFrame({"Crawl-accept": number_dist_tracker_entities[0], "Crawl-noop": number_dist_tracker_entities[1]})
-    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box', title='number_dist_tracker_entities')
+    ax = data[['Crawl-accept', 'Crawl-noop']].plot(kind='box')
     #plt.show()
-    plt.savefig('analysis_results/number_dist_tracker_entities.png')
+    plt.ylabel("Number of distinct tracker entities")
+    plt.savefig('analysis_results/2_number_dist_tracker_entities.png')
     plt.close()
 
 #3 Compare the data from 2 in a table, with their min median max
@@ -282,12 +289,16 @@ def create_table_4():
 def create_scatter_5():
     plt.scatter(exercise5[0][0], exercise5[0][1])
     #plt.show()
-    plt.savefig('analysis_results/question5_crawlaccept')
+    plt.ylabel("Number of distinct tracker domains")
+    plt.xlabel("website's Tranco rank")
+    plt.savefig('analysis_results/5_crawlaccept')
     plt.close()
 
     plt.scatter(exercise5[1][0], exercise5[1][1])
     #plt.show()
-    plt.savefig('analysis_results/question5_crawlnoop')
+    plt.ylabel("Number of distinct tracker domains")
+    plt.xlabel("website's Tranco rank")
+    plt.savefig('analysis_results/5_crawlnoop')
     plt.close()
 
 #6 Add a table of top ten tracker entities (companies) and their prevalence (based on the

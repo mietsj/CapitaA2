@@ -1,0 +1,9 @@
+\begin{tabular}{lllllrlll}
+\hline
+ name     & value   & domain        & path   & expires                    &   size & httpOnly   & secure   & sameSite   \\
+\hline
+ datr     & j3h4Z   & .facebook.com & /      & 2024-07-05 12:53:15.852400 &     28 & True       & True     & None       \\
+ BIDUPSID & 826CA   & .baidu.com    & /      & 2024-07-05 12:55:08.065297 &     40 & False      & False    & None       \\
+ PSTM     & 16856   & .baidu.com    & /      & 2024-07-05 12:55:08.065324 &     14 & False      & False    & None       \\
+\hline
+\end{tabular}
